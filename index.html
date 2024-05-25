@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - Attendance Sheet</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 style="color: rgb(18, 18, 19);">Student Attendance Sheet</h1>
+        <table id="attendance-table">
+            <thead>
+                <tr>
+                    <th>S.num</th>
+                    <th>Student Name</th>
+                    <th>Father Name</th>
+                    <th>Age</th>
+                    <th>I.D num</th>
+                    <th>Present</th>
+                    <th>Absent</th>
+                    <th>Leave</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Student rows will be added here dynamically -->
+            </tbody>
+        </table>
+        <button onclick="addStudentRow()"  class="btn">Add Student</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
